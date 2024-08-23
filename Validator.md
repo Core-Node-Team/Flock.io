@@ -131,7 +131,7 @@ screen -S flock
 #### Yüksek sistem
 
 ```
-cd /src
+cd src
 ```
 ```
 bash start.sh \
