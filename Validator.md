@@ -113,7 +113,7 @@ conda activate llm-loss-validator
 pip install -r requirements.txt
 
 ```
-NOT: aşağıya  api keyimizi yazıyoruz. siteden aldığımız. hugginden aldığımız ve yine flock io sitesinde stake etiğimizde sağda görev idsi yazıyor
+NOT: aşağıya  api keyimizi yazıyoruz. siteden aldığımız. hugginden aldığımız ve yine flock io sitesinde stake etiğimizde sağda görev idsi yazıyor mesela resimde 10 görünüyor 10 yazıcan :D
 
 ![image](https://github.com/user-attachments/assets/29421eb5-3980-4033-87e1-3719c20cf974)
 
