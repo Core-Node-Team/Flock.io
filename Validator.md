@@ -113,17 +113,23 @@ conda activate llm-loss-validator
 pip install -r requirements.txt
 
 ```
-NOT: aşağıya  api keyimişzi yazıyoruz. siteden aldığımız
+NOT: aşağıya  api keyimizi yazıyoruz. siteden aldığımız. hugginden aldığımız ve yine flock io sitesinde stake etiğimizde sağda görev idsi yazıyor
 
+![image](https://github.com/user-attachments/assets/29421eb5-3980-4033-87e1-3719c20cf974)
+
+```
 cd /src
+```
+```
 bash start.sh \
---hf_token your_hf_token \
---flock_api_key your_flock_api_key \
---task_id your_task_id \
+--hf_token BURAYA-HUGGİNG-KEY-YAZ \
+--flock_api_key BURAYA-FLOCK-API-KEY-YAZ \
+--task_id BURAYA-ID-YAZ \
 --validation_args_file validation_config_cpu.json.example \
 --auto_clean_cache False
+```
 
-
+![image](https://github.com/user-attachments/assets/44cac1c1-ed09-4fac-8105-b7ce5e308cef)
 
 
 
