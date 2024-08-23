@@ -88,14 +88,40 @@ Not: son kodu girince uzunca bir liste cıkıcak kuruldu.
 
 ![image](https://github.com/user-attachments/assets/680603b2-462f-4004-aa2d-d66d5b64ec09)
 
+#### Aşama Misson imposible
+
+- https://huggingface.co/ adresine gidip üye olalım. mail doğrulayalım
+- sağ menüden settinge gelin
+- access tokene gelin.
+- sağdaki seçenekten create token deyin yetkileri ayarlayın. ve oluşturun
+- çıkan keyi kaydedelim.
 
 #### Aşama 3
+```
+cd
+git clone https://github.com/FLock-io/llm-loss-validator.git
+cd llm-loss-validator
+```
+```
+conda create -n llm-loss-validator python==3.10
+```
+NOT: yeni güncellenen paketler var yes diyelim
+```
+conda activate llm-loss-validator
+```
+```
+pip install -r requirements.txt
 
+```
+NOT: aşağıya  api keyimişzi yazıyoruz. siteden aldığımız
 
-
-
-
-
+cd /src
+bash start.sh \
+--hf_token your_hf_token \
+--flock_api_key your_flock_api_key \
+--task_id your_task_id \
+--validation_args_file validation_config_cpu.json.example \
+--auto_clean_cache False
 
 
 
