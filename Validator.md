@@ -113,9 +113,12 @@ conda activate llm-loss-validator
 pip install -r requirements.txt
 
 ```
-NOT: aşağıya  api keyimizi yazıyoruz. siteden aldığımız. hugginden aldığımız ve yine flock io sitesinde stake etiğimizde sağda görev idsi yazıyor mesela resimde 10 görünüyor 10 yazıcan :D
+NOT: aşağıya  api keyimizi yazıyoruz. siteden aldığımız. hugginden aldığımız ve yine flock io sitesinde stake etiğimizde sağda görev idsi yazıyor mesela resimde 10 görünüyor 10 yazıcan :D 
+NOT: Aynı zamanda cihazın kalitesine göre 2 seçenek var. yüksek sistem neredeyse dedicate yarısından fazla güç kullanıyor modellerkene
 
 ![image](https://github.com/user-attachments/assets/29421eb5-3980-4033-87e1-3719c20cf974)
+
+#### Yüksek sistem
 
 ```
 cd /src
@@ -131,8 +134,19 @@ bash start.sh \
 
 ![image](https://github.com/user-attachments/assets/44cac1c1-ed09-4fac-8105-b7ce5e308cef)
 
-
-
+#### Düşük sistem
+```
+cd /src
+```
+```
+bash start.sh \
+--hf_token BURAYA-HUGGİNG-KEY-YAZ \
+--flock_api_key BURAYA-FLOCK-API-KEY-YAZ \
+--task_id BURAYA-ID-YAZ \
+--validation_args_file validation_config_cpu.json.example \
+--auto_clean_cache False \
+--lora_only
+```
 
 
 
