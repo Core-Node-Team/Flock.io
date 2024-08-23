@@ -95,6 +95,7 @@ Not: son kodu girince uzunca bir liste cıkıcak kuruldu.
 - access tokene gelin.
 - sağdaki seçenekten create token deyin yetkileri ayarlayın. ve oluşturun
 - çıkan keyi kaydedelim.
+* aşağıdaki yazanlar buyuk sunucuya kurulum yapacakalr içindir. lütfen dokumanın tamamını okuyun once.
 - https://huggingface.co/mistralai/Mistral-7B-v0.3 adresine gidin agrre diyerek ana ekrande kullanım yetkisi alın.
 - https://huggingface.co/google/gemma-7b adresine gidin agrre diyerek ana ekrande kullanım yetkisi alın.
 
