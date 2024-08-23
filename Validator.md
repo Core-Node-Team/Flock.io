@@ -128,6 +128,12 @@ NOT: Screen içinde çalıştıralım. aşağıdaki kodla açıyoruz çıkarken 
 ```
 screen -S flock
 ```
+```
+cd
+cd cd llm-loss-validator
+conda activate llm-loss-validator
+source ~/.bashrc
+```
 #### Yüksek sistem
 
 ```
