@@ -151,7 +151,7 @@ bash start.sh \
 --task_id BURAYA-ID-YAZ \
 --validation_args_file validation_config_cpu.json.example \
 --auto_clean_cache False \
---lora_only
+--lora_only True
 ```
 
 
