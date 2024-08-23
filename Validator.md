@@ -142,7 +142,7 @@ bash start.sh \
 
 #### Düşük sistem
 ```
-cd /src
+cd src
 ```
 ```
 bash start.sh \
