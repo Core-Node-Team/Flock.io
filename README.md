@@ -35,7 +35,7 @@
 - Yukarıdaki linklerden Discorda giriyoruz. Tg giriyoruz.
 
 - ✔️ Öncelikle yeni bir metamask açalım.
-- ✔️ Base sepolia ağında faucete ihtiyacımız var. https://www.alchemy.com/faucets/base-sepolia
+- ✔️ Base sepolia ağında faucete ihtiyacımız var. https://www.alchemy.com/faucets/base-sepolia cüzdana ağı eklemek içinse https://chainlist.org/?testnets=true&search=base
 - ✔️ https://train.flock.io/  gidelim ve mm cüzdanımızı bağlayalım.
 - ✔️ https://forms.gle/oFWMEVkhZevwYBwd6 Bu formu dolduruyoruz gerekli bilgileri verdikten sonra WL kaydettiklerinde aşağıda ki linkten faucet alacağız
 - ✔️ https://train.flock.io/faucet
