@@ -149,7 +149,6 @@ screen -S flock
 cd
 cd llm-loss-validator
 conda activate llm-loss-validator
-source ~/.bashrc
 ```
 #### Yüksek sistem
 
