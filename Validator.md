@@ -98,6 +98,7 @@ Not: son kodu girince uzunca bir liste cıkıcak kuruldu.
 * aşağıdaki yazanlar buyuk sunucuya kurulum yapacakalr içindir. lütfen dokumanın tamamını okuyun once.
 - https://huggingface.co/mistralai/Mistral-7B-v0.3 adresine gidin agrre diyerek ana ekrande kullanım yetkisi alın.
 - https://huggingface.co/google/gemma-7b adresine gidin agrre diyerek ana ekrande kullanım yetkisi alın.
+- mubarek uganda cumhurbaşkanı koruma görevlisi işe alım formu :D
 
 ![image](https://github.com/user-attachments/assets/aab68993-686f-43bc-bac3-066fb5853fb3)
 
@@ -130,7 +131,7 @@ screen -S flock
 ```
 ```
 cd
-cd cd llm-loss-validator
+cd llm-loss-validator
 conda activate llm-loss-validator
 source ~/.bashrc
 ```
