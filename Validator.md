@@ -92,17 +92,17 @@ Not: son kodu girince uzunca bir liste cıkıcak kuruldu.
 #### Aşama Misson imposible
 
 - https://huggingface.co/ adresine gidip üye olalım. mail doğrulayalım
-- sağ menüden settinge gelin
+- Sağ menüden settinge gelin
 
 ![image](https://github.com/user-attachments/assets/3e85fa05-2411-4714-9191-479ba2fcd63b)
 
 
-- access tokene gelin. ol menude 
+- Access tokene gelin. sol menude 
 
 ![image](https://github.com/user-attachments/assets/d42290c7-f772-4aa1-a5c5-16e6d54f0086)
 
 
-- sağdaki seçenekten create token deyin yetkileri ayarlayın. ve oluşturun
+- Sağdaki seçenekten create token deyin yetkileri ayarlayın. ve oluşturun
 
 ![image](https://github.com/user-attachments/assets/83f73c5d-f818-48ed-8b51-2a2ac8b591d9)
 
@@ -110,11 +110,11 @@ Not: son kodu girince uzunca bir liste cıkıcak kuruldu.
 ![image](https://github.com/user-attachments/assets/57085311-9814-489b-9d62-3406cb41f43b)
 
 
-- çıkan keyi kaydedelim.
-* aşağıdaki yazanlar buyuk sunucuya kurulum yapacakalr içindir. lütfen dokumanın tamamını okuyun once.
+- Cıkan keyi kaydedelim.
+* Aşağıdaki yazanlar buyuk sunucuya kurulum yapacakalr içindir. lütfen dokumanın tamamını okuyun once.
 - https://huggingface.co/mistralai/Mistral-7B-v0.3 adresine gidin agrre diyerek ana ekrande kullanım yetkisi alın.
 - https://huggingface.co/google/gemma-7b adresine gidin agrre diyerek ana ekrande kullanım yetkisi alın.
-- mubarek uganda cumhurbaşkanı koruma görevlisi işe alım formu :D
+- Mubarek uganda cumhurbaşkanı koruma görevlisi işe alım formu :D
 
 ![image](https://github.com/user-attachments/assets/aab68993-686f-43bc-bac3-066fb5853fb3)
 
