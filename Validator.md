@@ -166,6 +166,7 @@ bash start.sh \
 --lora_only True
 ```
 
+![image](https://github.com/user-attachments/assets/7f2f19e5-4c58-49c4-827c-683e8d4ce589)
 
 
 # Faydalı Linkler
