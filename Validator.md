@@ -120,8 +120,8 @@ conda activate llm-loss-validator
 pip install -r requirements.txt
 
 ```
-NOT: aşağıya  api keyimizi yazıyoruz. siteden aldığımız. hugginden aldığımız ve yine flock io sitesinde stake etiğimizde sağda görev idsi yazıyor mesela resimde 10 görünüyor 10 yazıcan :D 
-NOT: Aynı zamanda cihazın kalitesine göre 2 seçenek var. yüksek sistem neredeyse dedicate yarısından fazla güç kullanıyor modellerkene
+NOT: aşağıya  api keyimizi yazıyoruz. siteden aldığımız. ve `Aşama Misson imposible` uye olup hugginden aldığımız.  flock io sitesinde stake etiğimizde sağda görev idsi yazıyor mesela resimde 10 görünüyor 10 yazıcan :D 
+NOT: Aynı zamanda cihazın kalitesine göre 2 seçenek var. yüksek sistem neredeyse dedicate yarısından fazla güç kullanıyor modellerken
 
 ![image](https://github.com/user-attachments/assets/29421eb5-3980-4033-87e1-3719c20cf974)
 
