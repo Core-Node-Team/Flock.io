@@ -86,7 +86,8 @@ Not: son kodu girince uzunca bir liste cıkıcak kuruldu.
 
 - API keyimizi alalım sağ yukardan cüzdana tıkla api yazıyor tıklayıp api sayfasına geçelim ordaki bilgileri alalım ve bir metin belgesine kaydedelim
 
-![image](https://github.com/user-attachments/assets/680603b2-462f-4004-aa2d-d66d5b64ec09)
+![image](https://github.com/user-attachments/assets/43ede330-e931-413d-b4be-b107b217d740)
+
 
 #### Aşama Misson imposible
 
