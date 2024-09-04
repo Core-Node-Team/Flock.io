@@ -24,9 +24,10 @@
 ## 💻 Sistem Gereksinimleri
 | Bileşenler | Minimum Gereksinimler | 
 | ------------ | ------------ |
-| CPU |	4|
-| RAM	| 8+ GB |
-| Storage	| 200 GB SSD |
+| CPU | 4 |
+| RAM | 24+ GB |
+| Storage | 200 GB SSD |
+| GPU | 16+ GB (Görev gereksinimlerine göre daha yüksek olabilir, spesifik görev gereksinimlerine bakın) |
 
 ### 👷 Başlangıç
 
@@ -37,8 +38,6 @@
 - ✔️ Öncelikle yeni bir metamask açalım.
 - ✔️ Base sepolia ağında faucete ihtiyacımız var. https://www.alchemy.com/faucets/base-sepolia cüzdana ağı eklemek içinse https://chainlist.org/?testnets=true&search=base
 - ✔️ https://train.flock.io/  gidelim ve mm cüzdanımızı bağlayalım.
-- ✔️ https://forms.gle/oFWMEVkhZevwYBwd6 Bu formu dolduruyoruz gerekli bilgileri verdikten sonra WL kaydettiklerinde aşağıda ki linkten faucet alacağız
-- ✔️ https://train.flock.io/faucet
 - ✔️ Herşey tamamsa bundna sonra diğer sayfalardan validator veya training nıde kuracağız.
 - ✔️ Herhangi bir node kurulumu yapamayacaklar içinse delegetor kısmı var sadece yani aşırı basit direk [linki](https://docs.flock.io/flock-products/ai-arena/quickstart/delegator-guide) bırakıyorum.
 
