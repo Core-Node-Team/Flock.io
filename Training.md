@@ -47,7 +47,7 @@ wget https://repo.anaconda.com/archive/Anaconda3-2023.07-1-Linux-x86_64.sh
 bash Anaconda3-2023.07-1-Linux-x86_64.sh
 ```
 
-NOT: sayfanın aşağısına gelip yes yazıp enterla nereye kurayım diye soracak enterla. bidaha yes yazıp enterlıyacağız sorunca
+NOT: Sayfanın aşağısına gelip yazıp enterla nereye kurayım diye soracak enterla sonra sana yes mi no mu soracak YES yazıp enterla devam.
 
 ![image](https://github.com/user-attachments/assets/1f082791-f464-4110-8bc3-cb83a5cea1ab)
 
