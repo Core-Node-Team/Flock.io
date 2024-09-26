@@ -17,7 +17,7 @@
  * [Flock Telegram](https://t.me/flock_io_community)<br>
 
 
-NOT: screen dışında YAPIN.
+NOT: screen içinde yapacaksanız `screen -r flock` bu kodu kullanmayacağız zaten içindeyiz :D
 ```
 cd \
 source ~/.bashrc \
