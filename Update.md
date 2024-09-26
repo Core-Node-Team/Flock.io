@@ -17,14 +17,32 @@
  * [Flock Telegram](https://t.me/flock_io_community)<br>
 
 
-NOT: screen dışında da içindede yapabilirsiniz.
+NOT: screen dışında YAPIN.
 ```
 cd \
 source ~/.bashrc \
 cd /root/llm-loss-validator \
 git pull origin main
 ```
+```
+screen -r flock
+```
+```
+cd \
+cd /root/llm-loss-validator/src
+```
+NOT: daha sonra kodunuzu girip çalıştırın.
+
 Not: olmassa altakinide yapın
+
+------------------------
+
+```
+cd \
+source ~/.bashrc \
+cd /root/llm-loss-validator \
+git pull origin main
+```
 ```
 conda create -n llm-loss-validator python==3.10 \
 conda activate llm-loss-validator \
