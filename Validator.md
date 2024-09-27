@@ -182,6 +182,41 @@ bash start.sh \
 
 ![image](https://github.com/user-attachments/assets/7f2f19e5-4c58-49c4-827c-683e8d4ce589)
 
+### Flock servis oalrak çalıştırma (Powered by MictoNode(Onur))
+NOT: screen içinde çalışıyorsa gir durdur çık.
+
+```
+cd
+source ~/.bashrc
+cd llm-loss-validator
+conda activate llm-loss-validator
+```
+```
+sudo tee /etc/systemd/system/flockd.service > /dev/null << EOF
+[Unit]
+Description=Flock Validator Service
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/root/llm-loss-validator/src
+Environment="PATH=/root/anaconda3/envs/llm-loss-validator/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+ExecStart=/bin/bash -c 'bash start.sh --hf_token BURAYA-HUGGİNG-KEY-YAZ --flock_api_key BURAYA-FLOCK-API-KEY-YAZ --task_id BURAYA-ID-YAZ --validation_args_file validation_config_cpu.json.example --auto_clean_cache False'
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+EOF
+```
+```
+sudo systemctl daemon-reload
+sudo systemctl enable flockd
+sudo systemctl start flockd
+```
+- log komutu;
+```
+sudo journalctl -u flockd -f
+```
 
 # Faydalı Linkler
 
