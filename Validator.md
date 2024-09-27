@@ -191,6 +191,7 @@ source ~/.bashrc
 cd llm-loss-validator
 conda activate llm-loss-validator
 ```
+NOT: lütfen keyleri gerekli yerlere yazınız.
 ```
 sudo tee /etc/systemd/system/flockd.service > /dev/null << EOF
 [Unit]
