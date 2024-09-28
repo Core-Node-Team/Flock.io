@@ -74,7 +74,7 @@ pip install -r requirements.txt
 ```
 YADA
 ```
-source ~/.bashrc && cd && cd /root/llm-loss-validator && git pull origin main && conda create -n llm-loss-validator python==3.10 -y && conda activate llm-loss-validator && pip install -r requirements.txt -y && cd src
+source ~/.bashrc && cd && cd /root/llm-loss-validator && git pull origin main && conda create -n llm-loss-validator python==3.10 -y && conda activate llm-loss-validator && pip install -r requirements.txt && cd src
 ```
 ```
 screen -r flock
