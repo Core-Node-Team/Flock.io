@@ -182,9 +182,9 @@ bash start.sh \
 
 ![image](https://github.com/user-attachments/assets/7f2f19e5-4c58-49c4-827c-683e8d4ce589)
 
-### Flock servis oalrak çalıştırma (Powered by MictoNode(Onur))
+### Flock servis olarak çalıştırma (Powered by MictoNode(Onur))
 NOT: screen içinde çalışıyorsa gir durdur çık.
-NOT2: alttaki kodlara gerek olmayabilir. Garanti olsun diye yazıldı.
+NOT2: Alttaki kodlara gerek olmayabilir. Garanti olsun diye yazıldı.
 ```
 cd
 source ~/.bashrc
