@@ -184,7 +184,7 @@ bash start.sh \
 
 ### Flock servis oalrak çalıştırma (Powered by MictoNode(Onur))
 NOT: screen içinde çalışıyorsa gir durdur çık.
-
+NOT2: alttaki kodlara gerek olmayabilir. Garanti olsun diye yazıldı.
 ```
 cd
 source ~/.bashrc
@@ -202,8 +202,8 @@ After=network.target
 User=root
 WorkingDirectory=/root/llm-loss-validator/src
 Environment="PATH=/root/anaconda3/envs/llm-loss-validator/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
-ExecStart=/bin/bash -c 'bash start.sh --hf_token BURAYA-HUGGİNG-KEY-YAZ --flock_api_key BURAYA-FLOCK-API-KEY-YAZ --task_id BURAYA-ID-YAZ --validation_args_file validation_config_cpu.json.example --auto_clean_cache False'
-Restart=always
+ExecStart=/bin/bash -c 'source /root/anaconda3/bin/activate llm-loss-validator && bash start.sh --hf_token BURAYA-HUGGİNG-KEY-YAZ --flock_api_key BURAYA-FLOCK-API-KEY-YAZ --task_id BURAYA-ID-YAZ --validation_args_file validation_config_cpu.json.example --auto_clean_cache True'
+Restart=on-failure
 
 [Install]
 WantedBy=multi-user.target
